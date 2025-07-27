@@ -8,9 +8,9 @@ const Select = ({ state }) => {
       name='Choose Roles'
       onChange={(e) => state.setRole(e.target.value)}
     >
-      <option value='listener'>Listener (can only listen)</option>
-      <option value='speaker'>Speaker (can speak & listen) </option>
-      <option value='moderator'>Moderator (is literal god)</option>
+      <option value='listener'>Pendengar</option>
+      <option value='speaker'>Pembicara</option>
+      <option value='moderator'>HOST</option>
     </select>
   );
 };
